@@ -4,20 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background: #1b1b1b;
-}
-
-.box-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 5rem;
 }
 
 .box {
@@ -26,10 +18,4 @@ body {
   margin: 10px;
   background: #ffa31a;
   border-radius: 100px;
-}
-
-button {
-  padding: 10px 20px;
-  margin-left: 10px;
-  outline: none;
 }
