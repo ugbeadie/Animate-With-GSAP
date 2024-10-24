@@ -19,6 +19,16 @@
 
 .square {
   width: 100px;
-  height: 100px;
+  height: 20vh;
   background-color: fuchsia;
+}
+
+.square2 {
+  width: 100px;
+  height: 20vh;
+  background-color: green;
+}
+
+.red {
+  background-color: red;
 }
